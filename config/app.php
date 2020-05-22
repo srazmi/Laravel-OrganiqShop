@@ -162,6 +162,7 @@ return [
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
         Shetabit\Payment\Provider\PaymentServiceProvider::class,
+        Berkayoztunc\LaravelProfile\LaravelProfileServicesProvider::class,
 
         /*
          * Package Service Providers...

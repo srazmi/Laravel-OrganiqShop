@@ -41,7 +41,7 @@
                   <p>داشبورد اول</p>
                 </a>
               </li>
-              <li class="nav-item">
+              {{-- <li class="nav-item">
                 <a href="{{"/dashboard2"}}" class="nav-link">
                   <i class="fa fa-circle-o nav-icon"></i>
                   <p>داشبورد دوم</p>
@@ -52,7 +52,7 @@
                   <i class="fa fa-circle-o nav-icon"></i>
                   <p>داشبورد سوم</p>
                 </a>
-              </li>
+              </li> --}}
             </ul>
           </li>
           <li class="nav-item has-treeview">

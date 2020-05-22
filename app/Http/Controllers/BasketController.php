@@ -71,8 +71,6 @@ class BasketController extends Controller
         session(['factor_id' =>null]);
         return response()->json(array('basket'=>$basket,'path'=>$path));
 
-        
-
     }
 
     public function EditBasket(Request $request)

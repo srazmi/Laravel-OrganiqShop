@@ -158,6 +158,10 @@ class ComposerStaticInit8f80946ee111cf7209aae9f9ac5bb48c
             'Cron\\' => 5,
             'Carbon\\' => 7,
         ),
+        'B' => 
+        array (
+            'Berkayoztunc\\LaravelProfile\\' => 28,
+        ),
         'A' => 
         array (
             'App\\' => 4,
@@ -455,6 +459,10 @@ class ComposerStaticInit8f80946ee111cf7209aae9f9ac5bb48c
         array (
             0 => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon',
         ),
+        'Berkayoztunc\\LaravelProfile\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/berkayoztunc/laravel-profile/src',
+        ),
         'App\\' => 
         array (
             0 => __DIR__ . '/../..' . '/app',
@@ -563,6 +571,14 @@ class ComposerStaticInit8f80946ee111cf7209aae9f9ac5bb48c
         'App\\Providers\\RouteServiceProvider' => __DIR__ . '/../..' . '/app/Providers/RouteServiceProvider.php',
         'App\\Query' => __DIR__ . '/../..' . '/app/Query.php',
         'App\\User' => __DIR__ . '/../..' . '/app/User.php',
+        'Berkayoztunc\\LaravelProfile\\LaravelProfileController' => __DIR__ . '/..' . '/berkayoztunc/laravel-profile/src/LaravelProfileController.php',
+        'Berkayoztunc\\LaravelProfile\\LaravelProfileServicesProvider' => __DIR__ . '/..' . '/berkayoztunc/laravel-profile/src/LaravelProfileServicesProvider.php',
+        'Berkayoztunc\\LaravelProfile\\Model\\RecordCreated' => __DIR__ . '/..' . '/berkayoztunc/laravel-profile/src/model/RecordCreated.php',
+        'Berkayoztunc\\LaravelProfile\\Model\\RecordDeleted' => __DIR__ . '/..' . '/berkayoztunc/laravel-profile/src/model/RecordDeleted.php',
+        'Berkayoztunc\\LaravelProfile\\Model\\RecordUpdated' => __DIR__ . '/..' . '/berkayoztunc/laravel-profile/src/model/RecordUpdated.php',
+        'Berkayoztunc\\LaravelProfile\\Model\\UserActivitys' => __DIR__ . '/..' . '/berkayoztunc/laravel-profile/src/model/UserActivitys.php',
+        'Berkayoztunc\\LaravelProfile\\Trackable' => __DIR__ . '/..' . '/berkayoztunc/laravel-profile/src/Trackable.php',
+        'Berkayoztunc\\LaravelProfile\\TrackableDatabase' => __DIR__ . '/..' . '/berkayoztunc/laravel-profile/src/TrackableDatabase.php',
         'Carbon\\Carbon' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/Carbon.php',
         'Carbon\\CarbonImmutable' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/CarbonImmutable.php',
         'Carbon\\CarbonInterface' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/CarbonInterface.php',

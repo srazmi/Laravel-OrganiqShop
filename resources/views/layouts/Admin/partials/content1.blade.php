@@ -20,7 +20,7 @@
     <div class="row">
       <div class="col-12 col-sm-6 col-md-3">
         <div class="info-box">
-          <span class="info-box-icon bg-info elevation-1"><img src="{{asset('images/movie/salonicon2.png')}}" class="ml2imp"></span>
+          <span class="info-box-icon bg-info elevation-1"><img src="" class="ml2imp"></span>
 
           <div class="info-box-content">
             <span class="info-box-text">محصولات فروخته شده</span>
@@ -35,7 +35,7 @@
       <!-- /.col -->
       <div class="col-12 col-sm-6 col-md-3">
         <div class="info-box mb-3">
-          <span class="info-box-icon bg-success elevation-1"><img src="{{asset('images/movie/cash.png')}}" class="ml2imp"></span>
+          <span class="info-box-icon bg-success elevation-1"><img src="" class="ml2imp"></span>
 
           <div class="info-box-content">
             <span class="info-box-text">فروش</span>
@@ -267,10 +267,10 @@
                             <th>صفحه</th>
                             <th>میزان بازدید</th>
                         </thead>
-                        @foreach($analyticsData as $v)
+                        @foreach($analyticsData as $key)
                         <tr>
-                            <td>{{$v['url']}}</td>
-                            <td>{{$v['pageViews']}}</td>
+                            <td>{{$key['url']}}</td>
+                            <td>{{$key['pageViews']}}</td>
                         </tr>
                         @endforeach
                     </table>

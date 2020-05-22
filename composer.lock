@@ -4,8 +4,54 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3760174b5bba34b0cd68428e55d81576",
+    "content-hash": "4d7e956359df2fdd17c9c82f37876ab6",
     "packages": [
+        {
+            "name": "berkayoztunc/laravel-profile",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/berkayoztunc/laravel-profile.git",
+                "reference": "24482964b32ca5380917726a0fcd885e5b5eba81"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/berkayoztunc/laravel-profile/zipball/24482964b32ca5380917726a0fcd885e5b5eba81",
+                "reference": "24482964b32ca5380917726a0fcd885e5b5eba81",
+                "shasum": ""
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Berkayoztunc\\LaravelProfile\\LaravelProfileServicesProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Berkayoztunc\\LaravelProfile\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Berkay Öztunç",
+                    "email": "mailberkayoztunc@gmail.com",
+                    "homepage": "https://berkayoztunc.github.io",
+                    "role": "Developer"
+                }
+            ],
+            "description": "user model based profile staff",
+            "keywords": [
+                "laravel",
+                "laravel-profile"
+            ],
+            "time": "2017-06-18T22:51:41+00:00"
+        },
         {
             "name": "dnoegel/php-xdg-base-dir",
             "version": "v0.1.1",

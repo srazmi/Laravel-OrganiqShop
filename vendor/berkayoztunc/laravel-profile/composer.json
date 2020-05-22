@@ -1,0 +1,34 @@
+{
+    "name": "berkayoztunc/laravel-profile",
+    "description": "user model based profile staff",
+    "minimum-stability" :"stable",
+    "authors": [
+        {
+            "name": "Berkay Öztunç",
+            "email": "mailberkayoztunc@gmail.com",
+            "homepage": "https://berkayoztunc.github.io",
+            "role": "Developer"
+        }
+    ],
+    "keywords": [
+        "laravel",
+        "laravel-profile"
+    ],
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Berkayoztunc\\LaravelProfile\\" :"src"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Berkayoztunc\\LaravelProfile\\LaravelProfileServicesProvider"
+            ]
+        }
+    }
+}
+

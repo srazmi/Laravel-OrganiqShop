@@ -141,33 +141,8 @@
                   </div>
               </div>
           </li>
-    <!-- <script>
-        $(document).on("click",'.search_icon',function(){
-        
-        
-        var SearchItem=$('#search_input').val();
-        $.ajax({
-        url: '/product/search_products',
-        method: 'Post',
-        dataType: 'json',
-        data: {
-            
-            SearchItem:SearchItem
-        },
-        success:function(data)
-        {
-            
-            // {     message="<textarea required="+'"required"'+" placeholder="+'"متن پیام *"'+ "  class="+'"form-control comment"'+" name="+ '"message"'+" rows="+'"4"'+"></textarea>";
-                // $('#message').html(message);
-                // alert("نظر شما ثبت شد. متشکریم.");
-               
-                
-        }
-        
-        });
-
-    }); -->
-    </script>
+    
+    
           <li class="dropdown cart_wrap " id="basketheader">
           @if($Temp['basket'])  
           <a class="nav-link" id="basketshow" href="/cart" data-toggle="dropdown"><i class="ion-bag"></i><span class="cart_count">{{count($Temp['basket'])}}</span></a>

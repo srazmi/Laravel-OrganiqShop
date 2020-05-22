@@ -1,5 +1,53 @@
 [
     {
+        "name": "berkayoztunc/laravel-profile",
+        "version": "1.0.1",
+        "version_normalized": "1.0.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/berkayoztunc/laravel-profile.git",
+            "reference": "24482964b32ca5380917726a0fcd885e5b5eba81"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/berkayoztunc/laravel-profile/zipball/24482964b32ca5380917726a0fcd885e5b5eba81",
+            "reference": "24482964b32ca5380917726a0fcd885e5b5eba81",
+            "shasum": ""
+        },
+        "time": "2017-06-18T22:51:41+00:00",
+        "type": "library",
+        "extra": {
+            "laravel": {
+                "providers": [
+                    "Berkayoztunc\\LaravelProfile\\LaravelProfileServicesProvider"
+                ]
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Berkayoztunc\\LaravelProfile\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Berkay Öztunç",
+                "email": "mailberkayoztunc@gmail.com",
+                "homepage": "https://berkayoztunc.github.io",
+                "role": "Developer"
+            }
+        ],
+        "description": "user model based profile staff",
+        "keywords": [
+            "laravel",
+            "laravel-profile"
+        ]
+    },
+    {
         "name": "dnoegel/php-xdg-base-dir",
         "version": "v0.1.1",
         "version_normalized": "0.1.1.0",

@@ -40,8 +40,8 @@
                                           <a href="{{ asset('/').'category/'.$product->Category()->first()->name.'/'.$product->name.'/'.$product->id }}"><img style="height:150px" src="{{asset('/').$product->Photoes()->first()->path}}" alt="product_img1"></a>    
                                           <div class="product_action_box">
                                               <ul class="list_none pr_action_btn">
-                                                  <li><a href="#"><i class="ti-heart"></i></a></li>
-                                                  <li><a href="#"><i class="ti-shopping-cart"></i></a></li>
+                                                  <li><a data-id="{{$product->id}}" class="ratetoproduct" ><i class="ti-heart"></i></a></li>
+                                                  <li><a data-id="{{$product->id}}"  class="addcart" value="{{$product->id}}" ><i class="ti-shopping-cart"></i></a></li>
                                                   <li>
                                                       <a class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg"><i class="ti-eye"></i></a></li>
                                               </ul>
